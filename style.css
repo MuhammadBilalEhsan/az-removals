@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Railway, Helvetica, Arial, sans-serif;
+}
+.contact-us {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-us h4 {
+  color: rgb(51, 51, 51);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.contact-us p {
+  color: rgb(102, 102, 102);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.contact-us p a {
+  font-family: inherit;
+  color: inherit;
+  text-decoration: none;
+}
