@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Railway, Helvetica, Arial, sans-serif;
+  text-align: center;
+  word-break: break-all;
 }
 .contact-us {
   width: 100vw;
@@ -11,6 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 20px 30px;
 }
 .contact-us h4 {
   color: rgb(51, 51, 51);
